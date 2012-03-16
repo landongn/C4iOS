@@ -33,12 +33,15 @@
 -(void)_setShadowOpacity:(NSNumber *)_shadowOpacity;
 -(void)_setShadowPath:(id)shadowPath;
 -(void)_setShadowRadius:(NSNumber *)_shadowRadius;
+
+@property (readonly) BOOL initializing;
 @end
 
 @implementation C4Shape
 //@synthesize animationDuration = _animationDuration;
 @synthesize isLine =_isLine, shapeLayer, pointA = _pointA, pointB = _pointB;
 @synthesize fillColor, fillRule, lineCap, lineDashPattern, lineDashPhase, lineJoin, lineWidth, miterLimit, origin = _origin, strokeColor, strokeEnd, strokeStart, shadowOffset, shadowOpacity, shadowRadius, shadowPath, shadowColor;
+@synthesize initializing;
 
 -(id)init {
     return [self initWithFrame:CGRectZero];
@@ -46,9 +49,14 @@
 
 -(id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
+    initializing = YES;
     if(self != nil) {
         _isLine = NO;
+        self.animationDuration = 0.001f;
+        self.animationDelay = 0.00f;
+        [self setup];
     }
+    initializing = NO;
     return self;
 }
 
@@ -107,7 +115,14 @@
     CGPathAddEllipseInRect(newPath, nil, newPathRect);
 
     [self.shapeLayer animatePath:newPath];
+    /* bad hack */
+    /* this method gets called further down the chain */
+    /* i.e. [shape new]; shape.center = ; shape.center gets completed before [shape new] */
+    CGPoint oldCenter = self.center;
     self.frame = aRect;
+    self.center = oldCenter;
+//    C4Log(@"self.frame = (%4.2f,%4.2f,%4.2f,%4.2f)",self.frame.origin.x,self.frame.origin.y,self.frame.size.width,self.frame.size.height);
+    CGPathRelease(newPath);
 }
 
 -(void)arcWithCenter:(CGPoint)centerPoint radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle {
@@ -182,6 +197,9 @@
     CGRect newPathRect = CGRectMake(0, 0, aRect.size.width, aRect.size.height);
     CGPathAddRect(newPath, nil, newPathRect);
     [self.shapeLayer animatePath:newPath];
+    /* bad hack */
+    /* this method gets called further down the chain */
+    /* i.e. [shape new]; shape.center = ; shape.center gets completed before [shape new] */
     self.frame = aRect;
     CGPathRelease(newPath);
 }
@@ -336,6 +354,10 @@
     difference.x += self.frame.size.width/2.0f;
     difference.y += self.frame.size.height/2.0f;
     self.center = difference;
+}
+
+-(CGPoint)origin {
+    return _origin;
 }
 
 -(void)setFillColor:(UIColor *)_fillColor {

@@ -49,6 +49,12 @@
 		ED979F3F14F95EFF00645114 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED979F3E14F95EFF00645114 /* CoreImage.framework */; };
 		EDA7014914FC496300A0D77D /* C4Label.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA7014814FC496300A0D77D /* C4Label.m */; };
 		EDAFFAF014F7602F00CA356A /* C4Control.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFFAEF14F7602F00CA356A /* C4Control.m */; };
+		EDE40FD41512676500E1BFFA /* GraphLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE40FD31512676500E1BFFA /* GraphLineButton.m */; };
+		EDE40FD8151270A100E1BFFA /* GraphLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE40FD7151270A100E1BFFA /* GraphLine.m */; };
+		EDE40FDD151285B200E1BFFA /* GraphBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE40FDC151285B200E1BFFA /* GraphBar.m */; };
+		EDE40FE41512C31100E1BFFA /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE40FE31512C31100E1BFFA /* GraphNode.m */; };
+		EDE40FE81512C55000E1BFFA /* GraphEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE40FE71512C55000E1BFFA /* GraphEdge.m */; };
+		EDE40FEF1513A5DE00E1BFFA /* inception.m4v in Resources */ = {isa = PBXBuildFile; fileRef = EDE40FEE1513A5DE00E1BFFA /* inception.m4v */; };
 		EDECBF6C14EAE26700D9A446 /* C4Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = EDECBF6B14EAE26600D9A446 /* C4Shape.m */; };
 		EDF6544A150DEF3300194671 /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF65449150DEF3300194671 /* C4WorkSpace.m */; };
 		EDF65458150E104100194671 /* C4Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF65457150E104100194671 /* C4Sample.m */; };
@@ -74,7 +80,7 @@
 		ED3076A1150D51F0001D689C /* C4PlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4PlayerLayer.m; sourceTree = "<group>"; };
 		ED3C1C43150AC59E00AB288D /* C4Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4Image.h; sourceTree = "<group>"; };
 		ED3C1C44150AC59F00AB288D /* C4Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = C4Image.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		ED50C88114EAC2010040D844 /* C4iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED50C88114EAC2010040D844 /* C4iOS_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4iOS_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED50C88514EAC2010040D844 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED50C88714EAC2010040D844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED50C88914EAC2010040D844 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +132,17 @@
 		EDAFFAEF14F7602F00CA356A /* C4Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4Control.m; sourceTree = "<group>"; };
 		EDC75ED81506D7D2002D82A1 /* C4LayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4LayerAnimation.h; sourceTree = "<group>"; };
 		EDCEA5A514FD7567009969F2 /* C4Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4Gesture.h; sourceTree = "<group>"; };
+		EDE40FD21512676500E1BFFA /* GraphLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphLineButton.h; sourceTree = "<group>"; };
+		EDE40FD31512676500E1BFFA /* GraphLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphLineButton.m; sourceTree = "<group>"; };
+		EDE40FD6151270A100E1BFFA /* GraphLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphLine.h; sourceTree = "<group>"; };
+		EDE40FD7151270A100E1BFFA /* GraphLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphLine.m; sourceTree = "<group>"; };
+		EDE40FDB151285B200E1BFFA /* GraphBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBar.h; sourceTree = "<group>"; };
+		EDE40FDC151285B200E1BFFA /* GraphBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBar.m; sourceTree = "<group>"; };
+		EDE40FE21512C31100E1BFFA /* GraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphNode.h; sourceTree = "<group>"; };
+		EDE40FE31512C31100E1BFFA /* GraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNode.m; sourceTree = "<group>"; };
+		EDE40FE61512C55000E1BFFA /* GraphEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphEdge.h; sourceTree = "<group>"; };
+		EDE40FE71512C55000E1BFFA /* GraphEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphEdge.m; sourceTree = "<group>"; };
+		EDE40FEE1513A5DE00E1BFFA /* inception.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = inception.m4v; sourceTree = "<group>"; };
 		EDECBF6A14EAE26600D9A446 /* C4Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4Shape.h; sourceTree = "<group>"; };
 		EDECBF6B14EAE26600D9A446 /* C4Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4Shape.m; sourceTree = "<group>"; };
 		EDF65448150DEF3300194671 /* C4WorkSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
@@ -168,7 +185,7 @@
 		ED50C88214EAC2010040D844 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED50C88114EAC2010040D844 /* C4iOS.app */,
+				ED50C88114EAC2010040D844 /* C4iOS_Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +211,17 @@
 			children = (
 				EDF65448150DEF3300194671 /* C4WorkSpace.h */,
 				EDF65449150DEF3300194671 /* C4WorkSpace.m */,
+				EDE40FDB151285B200E1BFFA /* GraphBar.h */,
+				EDE40FDC151285B200E1BFFA /* GraphBar.m */,
+				EDE40FD6151270A100E1BFFA /* GraphLine.h */,
+				EDE40FD7151270A100E1BFFA /* GraphLine.m */,
+				EDE40FD21512676500E1BFFA /* GraphLineButton.h */,
+				EDE40FD31512676500E1BFFA /* GraphLineButton.m */,
+				EDE40FE21512C31100E1BFFA /* GraphNode.h */,
+				EDE40FE31512C31100E1BFFA /* GraphNode.m */,
+				EDE40FE61512C55000E1BFFA /* GraphEdge.h */,
+				EDE40FE71512C55000E1BFFA /* GraphEdge.m */,
+				EDE40FEE1513A5DE00E1BFFA /* inception.m4v */,
 				ED50C8D314EACA0E0040D844 /* Source */,
 				ED50C88C14EAC2010040D844 /* App */,
 			);
@@ -305,7 +333,7 @@
 			);
 			name = C4iOS;
 			productName = C4iOS;
-			productReference = ED50C88114EAC2010040D844 /* C4iOS.app */;
+			productReference = ED50C88114EAC2010040D844 /* C4iOS_Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -351,6 +379,7 @@
 				ED50C8B714EAC2A10040D844 /* C4LogoiPad-08.png in Resources */,
 				ED50C8B814EAC2A10040D844 /* C4LogoiPad-Landscape.png in Resources */,
 				ED50C8B914EAC2A10040D844 /* C4LogoiPad-Portrait.png in Resources */,
+				EDE40FEF1513A5DE00E1BFFA /* inception.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +415,11 @@
 				ED3076A2150D51F0001D689C /* C4PlayerLayer.m in Sources */,
 				EDF6544A150DEF3300194671 /* C4WorkSpace.m in Sources */,
 				EDF65458150E104100194671 /* C4Sample.m in Sources */,
+				EDE40FD41512676500E1BFFA /* GraphLineButton.m in Sources */,
+				EDE40FD8151270A100E1BFFA /* GraphLine.m in Sources */,
+				EDE40FDD151285B200E1BFFA /* GraphBar.m in Sources */,
+				EDE40FE41512C31100E1BFFA /* GraphNode.m in Sources */,
+				EDE40FE81512C55000E1BFFA /* GraphEdge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +498,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "C4iOS/C4iOS-Prefix.pch";
 				INFOPLIST_FILE = "C4iOS/C4iOS-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = C4iOS_Test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -475,10 +509,46 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "C4iOS/C4iOS-Prefix.pch";
 				INFOPLIST_FILE = "C4iOS/C4iOS-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = C4iOS_Test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		EDE40FD91512742900E1BFFA /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		EDE40FDA1512742900E1BFFA /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "C4iOS/C4iOS-Prefix.pch";
+				INFOPLIST_FILE = "C4iOS/C4iOS-Info.plist";
+				PRODUCT_NAME = C4iOS_Test;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
 		};
 /* End XCBuildConfiguration section */
 
@@ -488,6 +558,7 @@
 			buildConfigurations = (
 				ED50C89D14EAC2010040D844 /* Debug */,
 				ED50C89E14EAC2010040D844 /* Release */,
+				EDE40FD91512742900E1BFFA /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -497,6 +568,7 @@
 			buildConfigurations = (
 				ED50C8A014EAC2010040D844 /* Debug */,
 				ED50C8A114EAC2010040D844 /* Release */,
+				EDE40FDA1512742900E1BFFA /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

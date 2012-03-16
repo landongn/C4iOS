@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED50C88014EAC2010040D844"
-               BuildableName = "C4iOS.app"
+               BuildableName = "C4iOS_Network.app"
                BlueprintName = "C4iOS"
                ReferencedContainer = "container:C4iOS.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED50C88014EAC2010040D844"
-            BuildableName = "C4iOS.app"
+            BuildableName = "C4iOS_Network.app"
             BlueprintName = "C4iOS"
             ReferencedContainer = "container:C4iOS.xcodeproj">
          </BuildableReference>
@@ -45,12 +45,13 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       debugDocumentVersioning = "YES"
+      enablesOpenGLESFrameCapture = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED50C88014EAC2010040D844"
-            BuildableName = "C4iOS.app"
+            BuildableName = "C4iOS_Network.app"
             BlueprintName = "C4iOS"
             ReferencedContainer = "container:C4iOS.xcodeproj">
          </BuildableReference>
@@ -68,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED50C88014EAC2010040D844"
-            BuildableName = "C4iOS.app"
+            BuildableName = "C4iOS_Network.app"
             BlueprintName = "C4iOS"
             ReferencedContainer = "container:C4iOS.xcodeproj">
          </BuildableReference>
@@ -78,7 +79,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Ad Hoc"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

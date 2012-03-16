@@ -72,6 +72,10 @@
     self.center = difference;
 }
 
+-(CGPoint)origin {
+    return _origin;
+}
+
 -(void)setFrame:(CGRect)frame {
     CGRect oldFrame = self.frame;
     [self animateWithBlock:^{

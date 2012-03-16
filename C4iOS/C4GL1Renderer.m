@@ -75,7 +75,7 @@
 	
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrthof(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);
+    glOrthof(-1.005f, 1.005f, -1.005f, 1.005f, -1.005f, 1.005f);
 	glMatrixMode(GL_MODELVIEW);
     
     glClearColor(0,0,0,0);
@@ -85,6 +85,7 @@
     glEnableClientState(GL_VERTEX_ARRAY);
     glColorPointer(4, GL_UNSIGNED_BYTE, 0, colors);
     glEnableClientState(GL_COLOR_ARRAY);
+    glRotatef(1.0f, 0.0f, 0.0f, 1.0f);
 
     glDrawArrays(GL_LINE_LOOP, 0, 24);
     
