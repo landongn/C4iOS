@@ -329,6 +329,10 @@
 }
 
 #pragma mark Move
+-(void)move {
+    
+}
+
 -(void)move:(id)sender {
     NSUInteger _ani = self.animationOptions;
     CGFloat _dur = self.animationDuration;
@@ -449,7 +453,6 @@
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    C4Log(@"hi");
 //    if([[self nextResponder] isKindOfClass:[C4WorkSpace class]]) [super touchesBegan:touches withEvent:event];
     [super touchesBegan:touches withEvent:event];
     [self postNotification:@"touchesBegan"];
@@ -464,7 +467,7 @@
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    if([[self nextResponder] isKindOfClass:[C4WorkSpace class]]) [super touchesEnded:touches withEvent:event];
+//    if([[self nextResponder] isKindOfClass:[C4WorkSpace class]]) [super touchesEnded:touches withEvent:event];
     [super touchesEnded:touches withEvent:event];
     [self postNotification:@"touchesEnded"];
     [self touchesEnded];

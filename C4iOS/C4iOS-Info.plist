@@ -34,6 +34,8 @@
 				<string>C4_LaunchImage_iPhone-Portrait~ipad.png</string>
 				<string>C4_LaunchImage_iPhone-Portrait@2x~ipad.png</string>
 			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
 		</dict>
 		<key>UINewsstandIcon</key>
 		<dict>
@@ -69,6 +71,8 @@
 	<false/>
 	<key>UILaunchImageFile</key>
 	<string>C4_LaunchImage_iPhone.png</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

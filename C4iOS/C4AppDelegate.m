@@ -81,7 +81,7 @@
 
     [C4Control defaultStyle].style = basicStyle;
 
-    
+    //FIXME: slider defaults don't work with images
     [C4Slider defaultStyle].style = basicStyle;
     [C4Slider defaultStyle].minimumTrackTintColor = C4RED;
     [C4Slider defaultStyle].maximumTrackTintColor = C4GREY;

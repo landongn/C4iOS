@@ -1,0 +1,155 @@
+hello
+travis
+i consider myself…
+an artist
+a designer
+a researcher
+an engineer
+[2012 / 13]
+an architect
+sometimes i …
+build tables
+smash houses
+quite often i …
+cook
+hats
+…
+[context]
+70s
+canadian
+1997
+chemistry
+linear algebra
+philosophy
+genetics
+bored
+lab
+travel
+23
+interactive arts
+sfu
+architecture
+design
+kinesthetics
+experimental research
+2006
+europe
+futurelab
+where i specialized in…
+… a lot of different things
+video
+industrial design
+interaction design
+creative engineering
+building tables
+cutting metal
+smashing houses
+mad scientist
+projects
+vodafone
+stadtmodell
+skylink
+hats
+no category
+left
+banff centre
+visual arts
+dance
+music
+film
+theatre
+mathematics
+new media
+gestural typography
+contemporary arts
+linz
+rethinking the baseline
+researcher @ innovis
+artist in residence
+trajectory
+…
+in | space | between
+1997 - 2013
+alchemistic
+good 
+great 
+magnificent 
+aspects
+media-art-installation
+concept
+concept | digitize
+concept | digitize | install
+floored
+hammer
+2010
+p5 / of
+draw{}
+create objects
+manipulate them
+2010/11
+desktop
+residency
+mobile
+C4 (image of)
+paradigms
+new ways
+creative-coding
+2 main concepts
+first:
+no draw{} loop
+30 fps
+1800 fpm
+10800 fph
+renders 1 time
+canvas
+re-renders as needed
+circle
+instead
+second:
+creating objects
+build -> add
+shared properties
+shapes
+shapes | images
+shapes | images | text
+shapes | images | text | movies
+shapes | images | text | movies …
+[examples]
+single object
+variable media
+relationship
+visuals
+visuals + thing
+media:object
+realize
+2012
+residency
+four artists
+unique artwork
+support
+concept
+expressiveness
+new kind of experience
+software:hardware
+form
+medium
+media:object
+indistinguishable
+[projects]
+early versions
+>>>> develop
+april
+holo magazine
+evolving
+media:objects
+beyond h:s
+C4
+easiest proof of concept
+looking back… 
+my previous works
+art
+concept
+medium
+art | concept | medium
+single thing
+media:object
